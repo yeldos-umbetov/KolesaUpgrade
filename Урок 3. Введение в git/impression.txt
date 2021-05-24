@@ -2,3 +2,7 @@
 были мне не известны. Следовательно, я понимаю что нужно уделять больше времени и энергии на эти курсы. Но радует то,
 что преподаватели очень стараются и имеют достаточную квалификацию для того, поэтому мои усилия будут
 не напрасны.
+
+composer require "codeception/codeception" --dev
+php vendor/bin/codecept bootstrap
+php vendor/bin/codecept generate:cest acceptance First
